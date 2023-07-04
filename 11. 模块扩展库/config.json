@@ -1,0 +1,5 @@
+{
+    "ssid": "YOU_WIFI_SSID",
+    "password": "YOU_WIFI_PASSWORD",
+    "url": "http://192.168.31.198:3000/demo.js"
+}

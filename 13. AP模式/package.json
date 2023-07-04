@@ -1,0 +1,15 @@
+{
+  "name": "espjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "espjs upload",
+    "dev": "espjs dev",
+    "upload-master": "echo master > mode && npm run upload",
+    "upload-slave": "echo slave > mode && npm run upload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

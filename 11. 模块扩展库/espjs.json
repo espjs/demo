@@ -1,0 +1,18 @@
+{
+    "BaudRate": 115200,
+    "Board": "esp8266",
+    "Flash": "",
+    "Ignore": [
+        "espjs.json",
+        "package.json",
+        ".git/*",
+        "node_modules/*",
+        "demo.js"
+    ],
+    "Scripts": {
+        "test": "blink"
+    },
+    "Modules": {
+        "fetch": "http://www.espruino.com/modules/fetch.min.js"
+    }
+}
