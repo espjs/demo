@@ -7,6 +7,7 @@ var led = {
     on: function () {
         if (this.blinkInterval) {
             clearInterval(this.blinkInterval);
+            this.blinkInterval = null;
         }
         this.status = ON;
         this.pin.write(this.status);
@@ -14,6 +15,7 @@ var led = {
     off: function () {
         if (this.blinkInterval) {
             clearInterval(this.blinkInterval);
+            this.blinkInterval = null;
         }
         this.status = OFF;
         this.pin.write(this.status);
