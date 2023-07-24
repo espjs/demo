@@ -1,0 +1,18 @@
+{
+    "BaudRate": 115200,
+    "Board": "esp8266",
+    "Flash": "",
+    "Ignore": [
+        "espjs.json",
+        "package.json",
+        ".git/*",
+        "node_modules/*",
+        "index.html",
+        "api.http"
+    ],
+    "Scripts": {
+        "test": "blink"
+    },
+    "Modules": {
+    }
+}

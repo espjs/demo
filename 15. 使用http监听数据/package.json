@@ -1,0 +1,14 @@
+{
+  "name": "espjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "espjs upload",
+    "dev": "espjs dev",
+    "codeServer": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

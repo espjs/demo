@@ -1,0 +1,24 @@
+
+@thing = esp8266
+@open = Im9uIg==
+@close = Im9mZiI=
+### 打开指示灯
+GET https://dweet.io/dweet/for/{{thing}}?value={{open}}
+
+
+### 关闭指示灯
+GET https://dweet.io/dweet/for/{{thing}}?value={{close}}
+
+
+### 获取指示灯的状态
+GET https://dweet.io/get/latest/dweet/for/{{thing}}
+
+
+### 获取指示灯的历史状态
+GET https://dweet.io/get/dweets/for/{{thing}}
+
+
+### 监听指示灯的状态  这个接口不能直接测试因为是长连接的
+GET https://dweet.io/listen/for/dweets/from/{{thing}}
+
+
