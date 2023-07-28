@@ -1,0 +1,5 @@
+{
+    "ssid": "你的WIFI名称",
+    "password": "你的WIFI密码",
+    "topic": "esp8266"
+}
